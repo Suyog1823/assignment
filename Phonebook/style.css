@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1{
+    text-align: center;
+    font-family: cursive;
+  }
+  dl > div {
+    background: rgba(211, 209, 209, 0.795);
+    padding: 24px 0 0 0;
+  }
+  
+  dt {
+    background: #76b8fa;
+    border-bottom: 1px solid #f7f8f8;
+    border-top: 1px solid #19262e;
+    color: rgb(94, 89, 89);
+    font: bold 18px/21px Helvetica, Arial;
+    font-family: cursive;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+  }
+  
+  dd {
+    font: italic 18px/21px Helvetica, Arial;
+    font-family: cursive;
+    margin: 0;
+    padding: 0 0 0 10px;
+    white-space: nowrap;
+  }
+  
+  dd + dd {
+    border-top: 1px solid rgba(71, 71, 71, 0.534);
+  }
+  
+  dl{
+    border: solid;
+    margin: 60px;
+  }
