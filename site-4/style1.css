@@ -1,0 +1,93 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #bbb8b4;
+}
+
+
+nav{
+    background-color: #669bbc;
+    overflow: hidden;
+    border-radius: 5px;
+}
+  
+nav ul a:hover{
+    background-color: #003554;
+    color: #c9ada7; 
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+.main a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.slider {
+    width: 100%;
+    height: 600px;
+    position:relative ;
+    left: 50%;
+    top: 320px;
+    transform: translate(-50% , -50%);
+    background-image: url("https://images.unsplash.com/photo-1559579313-021b6ec9f6d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80");
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+section{
+     width: 75vw;
+     margin: 30px auto;
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-evenly; 
+    font-family: 'Noto Sans JP', sans-serif;
+ }
+
+ figure{
+     width: 300px;
+     border: 2px solid #838280;
+     border-radius: 10px;
+     margin: 20px;
+     transition: 250ms;
+ }
+
+ figure img{
+     width: 300px;
+     height: 250px;
+     border-radius: 10px;
+ }
+
+figcaption{
+    text-align: center;
+}
+
+figure:hover{
+    box-shadow: 0px 15px 10px -15px #3f37c9;
+    color: #6b9080;
+    border-color: #2f4858;
+    transform: translate3d(0px, -2px, 0px);
+    border-radius: 1.8rem;
+}
+
+figure img:hover{
+    border-radius: 1.8rem;
+}
+
+footer{
+    background-color: #669bbc;
+    height: 200px;
+    border-radius: 5px;
+}
+
+footer div{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}

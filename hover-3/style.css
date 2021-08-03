@@ -1,0 +1,22 @@
+body{
+    background-color: #2a9d8f;
+}
+
+.main{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 2px solid #e29578;
+    width: 80px;
+    margin: auto;
+    margin-top: 255px;
+    padding: 5px 10px;
+    color: #073b4c;
+}
+
+.main:hover{
+    box-shadow: 0px 15px 10px -15px #3f37c9;
+    color: #edf2f4;
+    border-color: #fca311;
+    transform: translate3d(0px, -2px, 0px);
+}
